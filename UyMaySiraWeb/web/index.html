@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uy May Sira! - Facility Damage Reporting and Monitoring System</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== LOGIN ===== -->
+  <section id="login-view" hidden>
+    <div class="login-brand">
+      <img src="logo.png" alt="Uy May Sira! logo" class="login-logo">
+      <p class="brand-sub">Facility Damage Reporting<br>and Monitoring System</p>
+      <div id="login-hall"></div>
+    </div>
+    <div class="login-side">
+      <form id="login-form" class="card login-card" autocomplete="on">
+        <h1>Welcome!</h1>
+        <p class="muted">Log in to report and monitor facility damage.</p>
+        <label>Username<input id="login-user" type="text" placeholder="Enter your username" autocomplete="username" required></label>
+        <label>Password<input id="login-pass" type="password" placeholder="Enter your password" autocomplete="current-password" required></label>
+        <label class="check"><input id="login-show" type="checkbox"> Show password</label>
+        <div id="login-error" class="form-error" hidden></div>
+        <button class="btn primary block" type="submit">LOGIN</button>
+        <p class="hint">Demo accounts<br>Admin: <b>admin</b> / admin123<br>Reporter: <b>resident</b> / resident123</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== APP ===== -->
+  <div id="app" hidden>
+    <aside id="sidebar">
+      <img src="logo.png" alt="Uy May Sira!" class="side-logo">
+      <p class="brand-sub">Facility Damage Reporting<br>and Monitoring System</p>
+      <nav id="nav"></nav>
+      <div id="side-hall"></div>
+    </aside>
+    <main>
+      <header id="banner"></header>
+      <div id="page"></div>
+    </main>
+  </div>
+
+  <div id="toast-host"></div>
+  <div id="modal-host"></div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Put the sqlite-jdbc .jar file here (see README.txt, section DATABASE).

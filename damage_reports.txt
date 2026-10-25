@@ -1,0 +1,5 @@
+RPT-001|Juan Dela Cruz|09171234567|Barangay Hall|Barangay Hall|Poblacion|Flood Damage|Flood water entered the hall after heavy rain and damaged the ground floor.|HIGH|25000.0|2026-10-05|UNDER REVIEW|
+RPT-002|Juan Dela Cruz|09171234567|Barangay Road (Purok 3)|Barangay Road|Poblacion|Road Damage|Large potholes and cracks appeared along the road after heavy rain.|CRITICAL|75000.0|2026-10-07|REPORTED|
+RPT-003|Juan Dela Cruz|09171234567|Health Center|Health Center|Poblacion|Water Damage|Roof leak is dripping water into the medicine storage room.|MODERATE|15000.0|2026-10-08|IN PROGRESS|
+RPT-004|Ana Cruz|09201234567|Public School|Public School|San Jose|Structural Damage|Classroom wall developed large cracks after the earthquake.|HIGH|60000.0|2026-10-10|REPAIRED|
+RPT-005|Jose Lim|09211234567|Drainage System|Drainage System|San Jose|Flood Damage|Clogged and broken drainage causes flooding on the street.|MODERATE|20000.0|2026-10-12|UNDER REVIEW|

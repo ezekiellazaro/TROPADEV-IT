@@ -1,0 +1,17 @@
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\interfaces\ReportActions.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\model\ActivityEntry.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\model\Admin.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\model\DamageReport.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\model\Facility.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\model\Reporter.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\model\User.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\service\FileManager.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\service\FileReportRepository.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\service\LoginManager.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\service\ReportManager.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\service\ReportRepository.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\service\SqliteReportRepository.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\util\ValidationUtil.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\web\Json.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\web\Main.java
+C:\Users\elisa\Downloads\UyMaySiraWeb\UyMaySiraWeb\src\barangaydamagereporter\web\WebServer.java
