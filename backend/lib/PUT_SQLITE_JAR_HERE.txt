@@ -1,0 +1,1 @@
+Put sqlite-jdbc-3.41.2.2.jar and slf4j-api-1.7.36.jar here. run.bat / run.sh download them automatically the first time (internet needed).
