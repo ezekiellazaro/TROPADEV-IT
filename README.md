@@ -261,11 +261,11 @@
 <path d="M428 160 Q470 100 512 160 Z" fill="#ff7a1a" stroke="#c24a00" stroke-width="5" stroke-linejoin="round"/><rect x="418" y="158" width="104" height="12" rx="4" fill="#ff9d3a" stroke="#c24a00" stroke-width="4"/>
 </g>
 <g filter="url(#glow)">
-<text x="600" y="395" text-anchor="middle" font-family="Impact, 'Arial Black', 'Segoe UI Black', sans-serif" font-weight="900" font-size="150" fill="none" stroke="#ff4a12" stroke-width="22" stroke-linejoin="round">FixTrack!</text>
-<text x="600" y="395" text-anchor="middle" font-family="Impact, 'Arial Black', 'Segoe UI Black', sans-serif" font-weight="900" font-size="150" fill="none" stroke="#fff3c4" stroke-width="10" stroke-linejoin="round">FixTrack!</text>
-<text x="600" y="395" text-anchor="middle" font-family="Impact, 'Arial Black', 'Segoe UI Black', sans-serif" font-weight="900" font-size="150" fill="url(#title)">FixTrack!</text>
+<text x="600" y="395" text-anchor="middle" font-family="Impact, 'Arial Black', 'Segoe UI Black', sans-serif" font-weight="900" font-size="150" fill="none" stroke="#ff4a12" stroke-width="22" stroke-linejoin="round"
+<text x="600" y="395" text-anchor="middle" font-family="Impact, 'Arial Black', 'Segoe UI Black', sans-serif" font-weight="900" font-size="150" fill="none" stroke="#fff3c4" stroke-width="10" stroke-linejoin="round"
+<text x="600" y="395" text-anchor="middle" font-family="Impact, 'Arial Black', 'Segoe UI Black', sans-serif" font-weight="900" font-size="150" fill="url(#title)"
 </g>
-<text x="600" y="150" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="44" letter-spacing="10" fill="#ffd21e" stroke="#7a2a00" stroke-width="2">BARANGAY</text>
+<text x="600" y="150" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="44" letter-spacing="10" fill="#ffd21e" stroke="#7a2a00" stroke-width="2"
 <g transform="translate(250 470) rotate(-35)"><rect x="-8" y="-10" width="16" height="70" rx="4" fill="#9fb4d8" stroke="#2b3a6a" stroke-width="4"/><path d="M-22 -10 L-22 -38 L-8 -30 L-8 -10 Z M22 -10 L22 -38 L8 -30 L8 -10 Z" fill="#cfe0ff" stroke="#2b3a6a" stroke-width="4" stroke-linejoin="round"/></g>
 <g transform="translate(350 480) rotate(35)"><rect x="-6" y="-20" width="12" height="80" rx="3" fill="#a5642a" stroke="#4a2a0a" stroke-width="4"/><rect x="-30" y="-44" width="60" height="28" rx="5" fill="#8d9bb8" stroke="#2b3a6a" stroke-width="4"/></g>
 <g transform="translate(780 440)"><animate attributeName="opacity" values="1;0.35;1" dur="1.4s" repeatCount="indefinite"/><path d="M0 0 L50 86 L-50 86 Z" fill="#ffd21e" stroke="#c24a00" stroke-width="7" stroke-linejoin="round"/><rect x="-5" y="26" width="10" height="30" fill="#3a1a00"/><rect x="-5" y="64" width="10" height="10" fill="#3a1a00"/></g>
@@ -289,8 +289,7 @@
 <rect x="10" y="108" width="154" height="7" fill="#d5d9ee" stroke="#2b3a6a" stroke-width="2"/><rect x="4" y="115" width="166" height="7" fill="#b9bfdc" stroke="#2b3a6a" stroke-width="2"/>
 </g>
 <g transform="translate(1030 470)"><rect x="0" y="0" width="70" height="90" rx="6" fill="#1f7a6a" stroke="#0a3a32" stroke-width="5"/><rect x="10" y="12" width="50" height="66" fill="#e8fff8"/><rect x="20" y="26" width="30" height="5" fill="#2b3a6a"/><rect x="20" y="42" width="30" height="5" fill="#2b3a6a"/><rect x="20" y="58" width="18" height="5" fill="#2b3a6a"/></g>
-<text x="600" y="590" text-anchor="middle" font-family="'Courier New', monospace" font-weight="700" font-size="26" letter-spacing="3" fill="#bfe6ff">Barangay Facility Damage Reporter  •  Team TROPADEV</text>
-</g><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpmYmQ0NWE5OC1i
+<text x="600" y="590" text-anchor="middle" font-family="'Courier New', monospace" font-weight="700" font-size="26" letter-spacing="3" fill="#bfe6ff"
 
 # 🛠️TROPADEV-IT: Barangay FixTrack🚧🛠️
 
