@@ -3,7 +3,7 @@
 **OOP 101 - Object-Oriented Programming** | BSIT-2106 | Team 6 (TROPADEV-IT)
 Batangas State University, The National Engineering University, Alangilan Campus
 
-Barangay FixTrack is a Java-based web system where residents report damaged barangay facilities and barangay officials review, update and monitor the reports until they are resolved.
+Barangay FixTrack🔎 is a Java-based web system where residents report damaged barangay facilities and barangay officials review, update and monitor the reports until they are resolved.
 ## OOP Concepts Demonstrated
 
 | OOP Concept | How it was demonstrated |
