@@ -60,3 +60,87 @@ The first run downloads the SQLite driver (internet needed once). See `README.tx
 2. Work on your own branch (e.g. `hannah-validation`).
 3. Commit small changes with clear messages.
 4. Open a Pull Request; Ezekiel reviews and merges.
+
+## UML Class Diagram
+
+```mermaid
+classDiagram
+    class User {
+        -String username
+        -String password
+        -String role
+        +login(String, String) boolean
+        +logout() void
+    }
+
+    class Reporter {
+        +submitReport(DamageReport) void
+        +viewReport(int) DamageReport
+    }
+
+    class Admin {
+        +reviewReport(int) void
+        +updateStatus(int, String) void
+    }
+
+    class ReportActions {
+        <<interface>>
+    }
+
+    class DamageReport {
+        -int id
+        -String description
+        -String photoPath
+        -String status
+        -Facility facility
+    }
+
+    class Facility {
+        -String name
+        -String location
+    }
+
+    class ActivityEntry {
+        -String action
+        -String timestamp
+    }
+
+    class ValidationUtil {
+        +validate(String) boolean
+    }
+
+    class LoginManager {
+        +authenticate(String, String) User
+    }
+
+    class ReportManager {
+        +addReport(DamageReport) void
+        +getReports() List~DamageReport~
+        +search(String) List~DamageReport~
+        +filterByStatus(String) List~DamageReport~
+    }
+
+    class ReportRepository {
+        <<interface>>
+        +save(DamageReport) void
+        +loadAll() List~DamageReport~
+    }
+
+    class SqliteReportRepository
+    class FileReportRepository
+    class FileManager
+
+    User <|-- Reporter : extends
+    User <|-- Admin : extends
+    ReportActions <|.. Reporter : implements
+    ReportActions <|.. Admin : implements
+    ReportRepository <|.. SqliteReportRepository : implements
+    ReportRepository <|.. FileReportRepository : implements
+    DamageReport --> Facility : about
+    Admin --> ActivityEntry : logs
+    Reporter --> ValidationUtil : uses
+    LoginManager --> User : returns
+    ReportManager --> ReportRepository : uses
+    ReportManager --> DamageReport : manages
+    FileReportRepository --> FileManager : uses
+```
