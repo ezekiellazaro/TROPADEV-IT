@@ -4,6 +4,14 @@
 Batangas State University, The National Engineering University, Alangilan Campus
 
 Barangay FixTrack is a Java-based web system where residents report damaged barangay facilities and barangay officials review, update and monitor the reports until they are resolved.
+## OOP Concepts Demonstrated
+
+| OOP Concept | How it was demonstrated |
+|---|---|
+| **Encapsulation** | The attributes of `User`, `DamageReport` and `Facility` are declared `private` and accessed only through getters and setters. `ValidationUtil` checks inputs before they are stored, so invalid or missing data cannot reach the report. |
+| **Inheritance** | `Reporter` and `Admin` extend the parent class `User`. They reuse its shared attributes and methods (such as `login()` and `logout()`) and add features of their own, calling the parent constructor with `super()`. |
+| **Polymorphism** | `Reporter` and `Admin` override the `User` methods that differ by role. A `User` reference can hold either one, and the correct version runs at runtime, so the main menu shows resident or official options depending on who logged in. |
+| **Abstraction** | The `ReportActions` interface defines the report operations without saying how they work. The `ReportRepository` interface hides how reports are stored, so `ReportManager` works the same whether data is saved by `SqliteReportRepository` or `FileReportRepository`. |
 
 ## Team Members and Assigned Tasks
 
