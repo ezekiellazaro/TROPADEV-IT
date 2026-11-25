@@ -62,6 +62,79 @@ The first run downloads the SQLite driver (internet needed once). See `README.tx
 4. Open a Pull Request; Ezekiel reviews and merges.
 
 ## UML Class Diagram
+```mermaid
+flowchart TD
+
+subgraph group_web["Web interface"]
+  node_browser["Browser UI<br/>[app.js]"]
+  node_server["HTTP server<br/>[WebServer.java]"]
+  node_paths["App paths<br/>[AppPaths.java]"]
+  node_json["JSON codec<br/>[Json.java]"]
+  node_main["Application startup<br/>[Main.java]"]
+end
+
+subgraph group_identity["Users and access"]
+  node_login["Login manager<br/>[LoginManager.java]"]
+  node_user["User roles<br/>[User.java]"]
+  node_admin["Administrator<br/>[Admin.java]"]
+  node_reporter["Reporter<br/>[Reporter.java]"]
+end
+
+subgraph group_reports["Report domain"]
+  node_validation["Input validation"]
+  node_actions["Report actions<br/>[ReportActions.java]"]
+  node_manager["Report manager<br/>[ReportManager.java]"]
+  node_damage["Damage report<br/>[DamageReport.java]"]
+  node_facility["Facility<br/>[Facility.java]"]
+  node_activity["Activity entry<br/>[ActivityEntry.java]"]
+end
+
+subgraph group_storage["Persistence"]
+  node_sqlite[("SQLite repository")]
+  node_file_repo["File repository"]
+  node_file_manager["Text file manager<br/>[FileManager.java]"]
+  node_repository["Repository contract"]
+end
+
+node_resident(("Resident or official"))
+
+node_resident -->|"uses"| node_browser
+node_browser -.->|"sends requests"| node_server
+node_main -->|"starts"| node_server
+node_main -->|"creates"| node_manager
+node_main -->|"creates"| node_login
+node_main -->|"selects"| node_sqlite
+node_main -->|"fallback selects"| node_file_repo
+node_server -->|"authenticates"| node_login
+node_server -->|"handles reports"| node_manager
+node_server -->|"encodes responses"| node_json
+node_server -->|"resolves paths"| node_paths
+node_login -->|"creates"| node_admin
+node_login -->|"creates"| node_reporter
+node_admin -->|"extends"| node_user
+node_reporter -->|"extends"| node_user
+node_admin -->|"delegates updates"| node_manager
+node_reporter -->|"submits reports"| node_manager
+node_manager -->|"loads and saves"| node_repository
+node_manager -->|"validates input"| node_validation
+node_manager -->|"records activity"| node_activity
+node_manager -->|"implements"| node_actions
+node_damage -->|"contains"| node_facility
+node_sqlite -->|"implements"| node_repository
+node_file_repo -->|"implements"| node_repository
+node_file_repo -->|"uses"| node_file_manager
+node_file_manager -->|"loads and saves"| node_damage
+
+classDef toneBlue fill:#dbeafe,stroke:#2563eb,stroke-width:1.5px,color:#172554
+classDef toneAmber fill:#fef3c7,stroke:#d97706,stroke-width:1.5px,color:#78350f
+classDef toneMint fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#14532d
+classDef toneRose fill:#ffe4e6,stroke:#e11d48,stroke-width:1.5px,color:#881337
+classDef toneIndigo fill:#e0e7ff,stroke:#4f46e5,stroke-width:1.5px,color:#312e81
+class node_browser,node_server,node_paths,node_json,node_main toneBlue
+class node_login,node_user,node_admin,node_reporter toneAmber
+class node_validation,node_actions,node_manager,node_damage,node_facility,node_activity toneMint
+class node_sqlite,node_file_repo,node_file_manager,node_repository toneRose
+class node_resident toneIndigo
 ```
 
 
