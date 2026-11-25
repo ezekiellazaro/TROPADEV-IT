@@ -25,8 +25,7 @@ BarangayFixTrackerWeb/
 ├── database/   schema.sql (table design); the .db file and photos are created on run
 ├── run.bat     Windows: compile and start
 └── run.sh      Mac/Linux: compile and start
-```<img width="586" height="1058" alt="image" src="https://github.com/user-attachments/assets/cd8aa95d-ae33-434c-9b15-0c7b87757539" />
-
+```
 
 ### Who owns which files
 
