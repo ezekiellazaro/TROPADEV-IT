@@ -1,9 +1,14 @@
+<p align="center">
+  <img src="banner.svg" alt="Barangay FixTrack - Team TROPADEV" width="100%">
+</p>
+
 # 🛠️TROPADEV-IT: Barangay FixTrack🚧🛠️
 
 **OOP 101 - Object-Oriented Programming** | BSIT-2106 | Team 6 (TROPADEV-IT)
 Batangas State University, The National Engineering University, Alangilan Campus
 
 Barangay FixTrack🔎 is a Java-based web system where residents report damaged barangay facilities and barangay officials review, update and monitor the reports until they are resolved.
+
 ## OOP Concepts Demonstrated
 
 | OOP Concept | How it was demonstrated |
@@ -62,6 +67,7 @@ The first run downloads the SQLite driver (internet needed once). See `README.tx
 4. Open a Pull Request; Ezekiel reviews and merges.
 
 ## UML Class Diagram
+
 ```mermaid
 flowchart TD
 
@@ -136,5 +142,3 @@ class node_validation,node_actions,node_manager,node_damage,node_facility,node_a
 class node_sqlite,node_file_repo,node_file_manager,node_repository toneRose
 class node_resident toneIndigo
 ```
-
-
