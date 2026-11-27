@@ -309,17 +309,20 @@ Barangay FixTrack🔎 is a Java-based web system where residents report damaged 
 
 ## 📸 Sample Screenshots / Output / Highlights
 
-| Login | Resident Dashboard |
-|:---:|:---:|
-| ![Login](screenshots/admin-dashboard.png) | ![Resident Dashboard](screenshots/resident-dashboard.png) |
+### 🧑‍💼 Admin Dashboard
+Officials get a bird's-eye view of every report: total, critical, high priority, under review, in progress, and repaired. They also get a facility-type chart, recent activity, quick actions, and system info.
 
-| Submit a Report | Admin Dashboard |
-|:---:|:---:|
-| ![Report Form](screenshots/report-form.png) | ![Admin Dashboard](screenshots/admin-dashboard.png) |
+![Admin Dashboard](screenshots/admin-dashboard.png)
 
-| Reports Table | Status Update |
-|:---:|:---:|
-| ![Reports Table](screenshots/reports-table.png) | ![Status Update](screenshots/status-update.png) |
+### 🙋 Resident Dashboard & Report Form
+Residents can report damaged facilities in seconds: facility name, severity, description, and an optional photo upload. Their own report stats and quick-access shortcuts sit on the same page.
+
+![Resident Dashboard](screenshots/resident-dashboard.png)
+
+### 📋 My Reports
+Residents can follow each report's severity, priority, estimated cost, and status (**Reported → Under Review → In Progress → Repaired**), and search or filter by status.
+
+![My Reports](screenshots/my-reports.png)
 
 **Sample data**
 
