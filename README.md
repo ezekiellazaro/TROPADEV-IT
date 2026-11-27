@@ -483,3 +483,9 @@ Thanks also to the **Batangas State University – Alangilan** community, to our
 *Made with ☕, 💻, and a lot of teamwork by **TROPADEV-IT***
 
 </div>
+
+## 💌 Thank You!
+
+<p align="center">
+  <img src="thankyou-kapitan.svg" alt="Thank you for visiting Barangay FixTracker" width="100%">
+</p>
