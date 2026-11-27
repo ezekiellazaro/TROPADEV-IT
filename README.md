@@ -311,7 +311,7 @@ Barangay FixTrack🔎 is a Java-based web system where residents report damaged 
 
 | Login | Resident Dashboard |
 |:---:|:---:|
-| ![Login](screenshots/login.png) | ![Resident Dashboard](screenshots/resident-dashboard.png) |
+| ![Login](screenshots/admin-dashboard.png) | ![Resident Dashboard](screenshots/resident-dashboard.png) |
 
 | Submit a Report | Admin Dashboard |
 |:---:|:---:|
