@@ -477,6 +477,13 @@ We sincerely thank **Ms. Fatima Marie P. Agdon, MSCS**, our OOP 101 instructor, 
 Thanks also to the **Batangas State University – Alangilan** community, to our families and friends for their support, and to every barangay worker who keeps our communities running. This project is for you. 🇵🇭
 
 ---
+## 💌 Thank You!
+
+## 💌 Thank You!
+
+<p align="center">
+  <img src="thankyou.svg" alt="Thank you, Ma'am Fatima!" width="100%">
+</p>
 
 <div align="center">
 
