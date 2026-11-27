@@ -307,6 +307,30 @@ Barangay FixTrack🔎 is a Java-based web system where residents report damaged 
 | **Polymorphism** | `Reporter` and `Admin` override the `User` methods that differ by role. A `User` reference can hold either one, and the correct version runs at runtime, so the main menu shows resident or official options depending on who logged in. |
 | **Abstraction** | The `ReportActions` interface defines the report operations without saying how they work. The `ReportRepository` interface hides how reports are stored, so `ReportManager` works the same whether data is saved by `SqliteReportRepository` or `FileReportRepository`. |
 
+## 📸 Sample Screenshots / Output / Highlights
+
+| Login | Resident Dashboard |
+|:---:|:---:|
+| ![Login](screenshots/login.png) | ![Resident Dashboard](screenshots/resident-dashboard.png) |
+
+| Submit a Report | Admin Dashboard |
+|:---:|:---:|
+| ![Report Form](screenshots/report-form.png) | ![Admin Dashboard](screenshots/admin-dashboard.png) |
+
+| Reports Table | Status Update |
+|:---:|:---:|
+| ![Reports Table](screenshots/reports-table.png) | ![Status Update](screenshots/status-update.png) |
+
+**Sample data**
+
+| ID | Facility | Issue | Priority | Est. Cost | Status |
+|---|---|---|---|---|---|
+| RPT-001 | Barangay Hall | Flooding | High | ₱25,000 | Pending |
+| RPT-002 | Barangay Road | Road damage | Critical | ₱75,000 | Pending |
+| RPT-003 | Health Center | Water issue | Moderate | ₱15,000 | In Progress |
+
+---
+
 ## Team Members and Assigned Tasks
 
 | Member | SR-Code | GitHub | Role | Assigned Tasks |
