@@ -431,3 +431,17 @@ class node_validation,node_actions,node_manager,node_damage,node_facility,node_a
 class node_sqlite,node_file_repo,node_file_manager,node_repository toneRose
 class node_resident toneIndigo
 ```
+
+## 🙏 Acknowledgment
+
+We sincerely thank **Ms. Fatima Marie P. Agdon, MSCS**, our OOP 101 instructor, for her guidance, patience, and for encouraging us to think creatively in applying object-oriented principles.
+
+Thanks also to the **Batangas State University – Alangilan** community, to our families and friends for their support, and to every barangay worker who keeps our communities running. This project is for you. 🇵🇭
+
+---
+
+<div align="center">
+
+*Made with ☕, 💻, and a lot of teamwork by **TROPADEV***
+
+</div>
