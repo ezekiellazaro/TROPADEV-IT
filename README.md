@@ -297,6 +297,112 @@
 Batangas State University, The National Engineering University, Alangilan Campus
 
 Barangay FixTrack🔎 is a Java-based web system where residents report damaged barangay facilities and barangay officials review, update and monitor the reports until they are resolved.
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" role="img" aria-label="OOP 101 - Object-Oriented Programming - Barangay FixTracker" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b2a6b"/>
+      <stop offset="1" stop-color="#14408f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5a5f"/>
+      <stop offset="1" stop-color="#ffb347"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="800" height="240" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .title { font: 900 78px 'Segoe UI', Arial, Helvetica, sans-serif; fill: #ffffff; letter-spacing: 2px; }
+    .sub   { font: 700 19px 'Segoe UI', Arial, Helvetica, sans-serif; fill: url(#accent); letter-spacing: 1.5px; }
+    .tag   { font: 600 15px 'Segoe UI', Arial, Helvetica, sans-serif; fill: #bcd0ff; }
+    .fadeup { opacity: 0; animation: fadeup 0.9s ease-out forwards; }
+    .d1 { animation-delay: .1s; } .d2 { animation-delay: .4s; } .d3 { animation-delay: .7s; } .d4 { animation-delay: 1s; }
+    @keyframes fadeup { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+
+    .float { animation: float 3s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+
+    .blink { transform-box: fill-box; transform-origin: center; animation: blink 4s infinite; }
+    @keyframes blink { 0%,92%,100% { transform: scaleY(1); } 95% { transform: scaleY(0.1); } }
+
+    .beacon { animation: beacon 1.2s ease-in-out infinite; }
+    @keyframes beacon { 0%,100% { opacity: .3; } 50% { opacity: 1; } }
+
+    .heart { transform-box: fill-box; transform-origin: center; animation: pop 1.6s ease-in-out infinite; }
+    @keyframes pop { 0%,100% { transform: scale(1) translateY(0); opacity: 1; } 50% { transform: scale(1.3) translateY(-6px); opacity: .85; } }
+
+    .steam { fill: none; stroke: #dfe9ff; stroke-width: 3; stroke-linecap: round; opacity: 0; animation: steam 2.4s ease-in-out infinite; }
+    .s2 { animation-delay: .8s; } .s3 { animation-delay: 1.6s; }
+    @keyframes steam { 0% { opacity: 0; transform: translateY(8px); } 40% { opacity: .9; } 100% { opacity: 0; transform: translateY(-14px); } }
+
+    .wave { transform-box: fill-box; transform-origin: 0% 100%; animation: wave 1.4s ease-in-out infinite; }
+    @keyframes wave { 0%,100% { transform: rotate(0deg); } 50% { transform: rotate(-16deg); } }
+
+    .cursor { animation: cursor 1s steps(1) infinite; }
+    @keyframes cursor { 0%,50% { opacity: 1; } 51%,100% { opacity: 0; } }
+
+    .sparkle { animation: beacon 2s ease-in-out infinite; }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="800" height="240" fill="url(#bg)"/>
+    <!-- soft decorative circles -->
+    <circle cx="700" cy="40" r="120" fill="#ffffff" opacity=".05"/>
+    <circle cx="40" cy="230" r="90" fill="#ffffff" opacity=".05"/>
+    <!-- tiny code symbols -->
+    <g font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#8fb0ff" opacity=".45">
+      <text class="sparkle" x="470" y="48">{ }</text>
+      <text class="sparkle" x="690" y="215" style="animation-delay:.7s">&lt;/&gt;</text>
+      <text class="sparkle" x="430" y="205" style="animation-delay:1.2s">;</text>
+    </g>
+  </g>
+
+  <!-- Text -->
+  <g>
+    <text class="title fadeup d1" x="40" y="112">OOP 101<tspan class="cursor" fill="#ff5a5f">_</tspan></text>
+    <text class="sub fadeup d2" x="44" y="148">OBJECT-ORIENTED PROGRAMMING</text>
+    <rect class="fadeup d3" x="44" y="162" width="90" height="4" rx="2" fill="url(#accent)"/>
+    <text class="tag fadeup d4" x="44" y="195">Barangay FixTracker  •  Team TROPADEV  •  BatStateU Alangilan</text>
+  </g>
+
+  <!-- Mascot: friendly coder bot -->
+  <g transform="translate(590,34)"><g class="float">
+    <!-- antenna -->
+    <line x1="75" y1="10" x2="75" y2="30" stroke="#dfe9ff" stroke-width="4" stroke-linecap="round"/>
+    <circle class="beacon" cx="75" cy="8" r="7" fill="#ff5a5f"/>
+    <!-- head -->
+    <rect x="25" y="30" width="100" height="84" rx="26" fill="#f4f7ff" stroke="#1d3f8f" stroke-width="4"/>
+    <rect x="36" y="44" width="78" height="52" rx="18" fill="#10285e"/>
+    <!-- eyes -->
+    <ellipse class="blink" cx="58" cy="68" rx="9" ry="11" fill="#7fe3ff"/>
+    <ellipse class="blink" cx="92" cy="68" rx="9" ry="11" fill="#7fe3ff"/>
+    <path d="M62 86 Q75 96 88 86" fill="none" stroke="#7fe3ff" stroke-width="4" stroke-linecap="round"/>
+    <!-- cheeks -->
+    <circle cx="44" cy="84" r="5" fill="#ff8fa3" opacity=".7"/>
+    <circle cx="106" cy="84" r="5" fill="#ff8fa3" opacity=".7"/>
+    <!-- body -->
+    <rect x="40" y="116" width="70" height="46" rx="16" fill="#2f6bff" stroke="#1d3f8f" stroke-width="4"/>
+    <circle cx="75" cy="139" r="8" fill="#ffffff" opacity=".9"/>
+    <text x="75" y="144" text-anchor="middle" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#2f6bff">J</text>
+    <!-- waving arm + heart -->
+    <g class="wave">
+      <rect x="104" y="108" width="14" height="40" rx="7" fill="#f4f7ff" stroke="#1d3f8f" stroke-width="3" transform="rotate(-28 111 148)"/>
+    </g>
+    <path class="heart" d="M148 88 c-7 -10 -22 -2 -14 9 l14 13 l14 -13 c8 -11 -7 -19 -14 -9z" fill="#ff4d6d"/>
+    <!-- left arm holding java cup -->
+    <rect x="32" y="122" width="14" height="34" rx="7" fill="#f4f7ff" stroke="#1d3f8f" stroke-width="3" transform="rotate(20 39 122)"/>
+    <g transform="translate(-6,138)">
+      <!-- steam -->
+      <path class="steam" d="M14 6 q-6 -8 0 -16 q6 -8 0 -16"/>
+      <path class="steam s2" d="M26 6 q-6 -8 0 -16 q6 -8 0 -16"/>
+      <path class="steam s3" d="M38 6 q-6 -8 0 -16 q6 -8 0 -16"/>
+      <!-- cup -->
+      <path d="M6 10 h44 v20 a18 18 0 0 1 -18 18 h-8 a18 18 0 0 1 -18 -18z" fill="#ffffff" stroke="#1d3f8f" stroke-width="3"/>
+      <path d="M50 16 h6 a8 8 0 0 1 0 18 h-6" fill="none" stroke="#ffffff" stroke-width="4"/>
+      <rect x="10" y="14" width="36" height="6" fill="#ff5a5f"/>
+      <!-- saucer -->
+      <ellipse cx="28" cy="52" rx="28" ry="5" fill="#8fb0ff"/>
+    </g>
+  </g></g>
+<metadata><c2pa:manifest>
 
 <p align="center">
   <img src="banner.svg" alt="OOP 101 - Object-Oriented Programming" width="100%">
