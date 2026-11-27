@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.svg" alt="OOP 101 - Object-Oriented Programming" width="100%">
+</p>
+
 </p> <img width="1200" height="630" alt="banner" src="https://github.com/user-attachments/assets/39f77f87-0813-4731-b7bc-1ae5230b9728" />
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Barangay FixTrack banner" xmlns:c2pa="http://c2pa.org/manifest">
 <defs>
@@ -297,10 +301,6 @@
 Batangas State University, The National Engineering University, Alangilan Campus
 
 Barangay FixTrack🔎 is a Java-based web system where residents report damaged barangay facilities and barangay officials review, update and monitor the reports until they are resolved.
-
-<p align="center">
-  <img src="banner.svg" alt="OOP 101 - Object-Oriented Programming" width="100%">
-</p>
 
 ## OOP Concepts Demonstrated
 
