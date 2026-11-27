@@ -298,6 +298,10 @@ Batangas State University, The National Engineering University, Alangilan Campus
 
 Barangay FixTrack🔎 is a Java-based web system where residents report damaged barangay facilities and barangay officials review, update and monitor the reports until they are resolved.
 
+<p align="center">
+  <img src="banner.svg" alt="OOP 101 - Object-Oriented Programming" width="100%">
+</p>
+
 ## OOP Concepts Demonstrated
 
 | OOP Concept | How it was demonstrated |
