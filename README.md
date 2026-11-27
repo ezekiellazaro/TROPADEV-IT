@@ -431,6 +431,13 @@ class node_validation,node_actions,node_manager,node_damage,node_facility,node_a
 class node_sqlite,node_file_repo,node_file_manager,node_repository toneRose
 class node_resident toneIndigo
 ```
+## 💌 Thank You!
+
+Thank you for taking the time to explore **Barangay FixTrack**! We built this project to show that even small lines of code can help a community, and that good OOP design makes that code easier to grow, fix, and understand.
+
+If you liked it, please leave a ⭐ on the repo. 💙
+
+---
 
 ## 🙏 Acknowledgment
 
