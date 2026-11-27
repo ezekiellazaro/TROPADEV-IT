@@ -473,6 +473,6 @@ Thanks also to the **Batangas State University – Alangilan** community, to our
 
 <div align="center">
 
-*Made with ☕, 💻, and a lot of teamwork by **TROPADEV***
+*Made with ☕, 💻, and a lot of teamwork by **TROPADEV-IT***
 
 </div>
